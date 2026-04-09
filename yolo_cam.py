@@ -63,7 +63,7 @@ while True:
     # Display the frame with detected objects
     cv2.imshow('Cam', img)
 
-    # Check for 'q' key press to exit the loop
+    # Check for 'q' key press to exit the loop(stop the camera)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
